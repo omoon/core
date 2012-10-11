@@ -630,6 +630,17 @@ class Fieldset
 	{
 		return $this->validation()->show_errors($config);
 	}
+
+	/**
+	 * Get instance id
+	 *
+	 * @return string
+	 */
+	public function get_name()
+	{
+		return $this->name;
+	}
+
 }
 
 
